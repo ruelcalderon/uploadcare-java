@@ -43,7 +43,7 @@ Read class documentation on [javadoc.io](https://www.javadoc.io/doc/com.uploadca
 ### Basic API Usage
 
 ```java
-Client client = new Client("5f690e7cb3ec508adc07", "714f5fca3cd8ca917cc2");
+Client client = new Client("public key", "secret key");
 Project project = client.getProject();
 Project.Collaborator owner = project.getOwner();
 
